@@ -1,0 +1,29 @@
+@include media-breakpoint-up(xs) {
+    .principal {
+        display: block;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .principal {
+        display: block;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .principal {
+        display: block;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .principal {
+        display: block;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .principal {
+        display: block;
+    }
+}

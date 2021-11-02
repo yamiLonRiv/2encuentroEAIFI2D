@@ -1,0 +1,30 @@
+<div class="card">
+    <div class="card-header">
+        <div class="row bg-dark">
+            <div class="col1 col-sm-1 col-md-1 col-2 pl-0">
+                <button class="btn pt" style="background-color: rgb(210, 105, 30);" alt=" " (click)="irInicio()">
+            <i class="fa fa-home"></i>
+            </button>
+
+            </div>
+            <div class="col2 col-sm-10 col-md-10 col-9 pt-1">
+                <p class="card-tittle text-center text-white " style="font-size: 1.5vw;">Otras ingenierías</p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="card-body">
+
+
+        <ng-image-slider [images]="imageObject" (imageClick)="mostarInfo($event)" [imagePopup]="false" [imageSize]="{width: 500, height: 500, space: 10}" #nav></ng-image-slider>
+
+    </div>
+
+    <div class="card-footer">
+        <p class="card-subtitle bg-dark text-white text-center mb-5" style="font-size: 1.5vw;"> Profesor encargado: Julio Cesar Caicedo
+            <br> correo: julioc.caicedo@ucaldas.edu.co
+        </p>
+    </div>
+
+</div>
